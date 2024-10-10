@@ -16,7 +16,7 @@ namespace MovieFestival
 
         public string Name { get; set; }
 
-        private string GetData()
+        public string GetData()
         {
             return Name[0].ToString().ToUpper() + Name[Name.Length - 1].ToString().ToUpper();
         }
